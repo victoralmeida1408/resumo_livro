@@ -4,7 +4,7 @@ import google.generativeai as genai
 from PIL import Image, ImageTk  # Para manipulação da imagem
 
 # Configure sua chave Gemini (substitua pela sua chave válida do Google AI Studio)
-genai.configure(api_key="AIzaSyAxNiu9DSZEErsuDp6QZ-h2PugVZxpFH5w")
+genai.configure()
 
 # Função para gerar resumo com Gemini
 def obter_resumo(titulo_livro):
